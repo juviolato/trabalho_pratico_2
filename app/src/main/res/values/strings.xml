@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TP2</string>
+    <string name="sum">SUM</string>
+    <string name="send">SEND</string>
+    <string name="enter_a_number">Enter a number</string>
+    <string name="enter_a_message">Enter a message</string>
+    <string name="atividade_1">Atividade 1</string>
+    <string name="atividade_2">Atividade 2</string>
+    <string name="atividade_3">Atividade 3</string>
+    <string name="atividade_4">Atividade 4</string>
+    <string name="tp2">Trabalho Prático 2</string>
+    <string name="result">RESULT</string>
+    <string name="returnStart">Return</string>
+    <string name="X">X</string>
+    <string name="Y">Y</string>
+    <string name="Z">Z</string>
+    <string name="atv3_message">Posição correta</string>
+    <string name="parte_1">Parte 1</string>
+    <string name="parte_2">Parte 2</string>
+    <string name="luminosity">Luminosity</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="temperature">Temperature</string>
+    <string name="updateGPS">Update</string>
+</resources>

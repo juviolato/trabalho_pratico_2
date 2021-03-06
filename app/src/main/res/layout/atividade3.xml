@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Atividade3">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/atividade_3"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/teal_200"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:padding="10sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@id/title"
+        app:layout_constraintTop_toBottomOf="@id/title">
+
+        <EditText
+            android:id="@+id/xInputId"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/X"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/yInputId"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/Y"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/zInputId"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/Z"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/returnButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/returnStart"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
